@@ -60,6 +60,8 @@ class Field:
         self.pushbutton_inset = 0.125
 
         self.buttons = Buttons()
+        
+
 
     def load_field_urdf(self, cwd):
         """Load the URDF of the field into the environment
